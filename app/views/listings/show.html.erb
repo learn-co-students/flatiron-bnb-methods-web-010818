@@ -1,0 +1,7 @@
+<h1><%= @listing.title %></h1>
+<p><strong>Price:</strong> <%= number_to_currency(@listing.price) %></p>
+<p><strong>Type:</strong> <%= @listing.listing_type %></p>
+<p><strong>Host:</strong> <%= @listing.host.name %></p>
+<p><strong>Neighborhood:</strong> <%= @listing.neighborhood.name %></p>
+<p><strong>Address:</strong> <%= @listing.address %></p>
+<p><strong>Description:</strong> <%= @listing.description %></p>
