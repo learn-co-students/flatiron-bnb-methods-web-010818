@@ -49,7 +49,7 @@ The same class/instance methods as your `City` object. Maybe there is a way they
 
 #### Validations
 
-  * Should have a description, rating and reservation
+  * Should have a description, rating and reservation.
   * Reviews should only be created on reservations that exist and have already happened.
 
 ## Resources
