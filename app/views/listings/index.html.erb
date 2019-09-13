@@ -1,0 +1,9 @@
+<h1>All Listings</h1>
+
+<ul>
+  <% @listings.each do |l| %>
+  <li><strong><%=link_to "#{l.title} (#{l.neighborhood.name})", listing_path(l) %> - Price:</strong> <%= number_to_currency(l.price) %></p>
+  <br>
+  <% end %>
+
+</ul>
